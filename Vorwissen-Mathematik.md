@@ -1,0 +1,258 @@
+# Zahlenbereiche & Arithmetik
+
+- Natürliche Zahlen
+  - Stellenwertsystem
+    - Tausender
+    - Hunderter
+    - Zehner
+    - Einer
+  - Operationen
+    - Addition
+    - Subtraktion
+    - Multiplikation
+    - Division
+- Ganze Zahlen
+  - Zahlenstrahl
+    - Positive Zahlen
+    - Negative Zahlen
+  - Rechenregeln
+    - Vorzeichenregeln
+    - Betrag
+- Rationale Zahlen
+  - Bruchrechnung
+    - Erweitern & Kürzen
+    - Hauptnenner
+    - Kehrwert
+    - ggT & kgV
+  - Dezimalzahlen
+    - Periodische Zahlen
+    - Umwandlung
+- Reelle Zahlen
+  - Irrationale Zahlen
+    - Kreiszahl π
+    - Eulersche Zahl e
+  - Wurzeln
+    - Quadratwurzel
+    - Rechenregeln
+    - Rationalmachen
+
+# Algebra
+
+- Terme & Umformungen
+  - Grundoperationen
+    - Zusammenfassen
+    - Distributivgesetz
+    - Faktorisieren
+  - Binomische Formeln
+    - Erste (Plus)
+    - Zweite (Minus)
+    - Dritte (Plus-Minus)
+  - Potenzgesetze
+    - Gleiche Basis
+    - Gleiche Exponenten
+    - Potenzieren von Potenzen
+- Gleichungen & Ungleichungen
+  - Lineare Gleichungssysteme
+    - Einsetzungsverfahren
+    - Gleichsetzungsverfahren
+    - Additionsverfahren
+  - Quadratische Gleichungen
+    - Faktorisierung
+    - pq-Formel / abc-Formel
+    - Diskriminante
+  - Höhere Ordnung
+    - Polynomdivision
+    - Substitution (biquadratisch)
+    - Satz vom Nullprodukt
+  - Ungleichungen
+    - Äquivalenzumformung
+    - Fallunterscheidung
+    - Lösungsmenge
+- Komplexe Zahlen
+  - Darstellungsformen
+    - Algebraische Form (a+bi)
+    - Trigonometrische Form
+    - Gaußsche Zahlenebene
+  - Rechenoperationen
+    - Konjugiert Komplexes
+    - Betrag & Argument
+    - Satz von Moivre
+    - n-te Wurzeln
+
+# Analysis
+
+- Elementare Funktionen
+  - Grundtypen
+    - Lineare & Affine
+    - Potenzfunktionen
+    - Wurzelfunktionen
+    - Betragsfunktion
+  - Transzendente Funktionen
+    - Exponentialfunktion
+    - Logarithmus
+    - Trigonometrische
+  - Eigenschaften
+    - Definitionsbereich
+    - Symmetrie
+    - Monotonie
+- Folgen & Reihen
+  - Folgentypen
+    - Arithmetische Folgen
+    - Geometrische Folgen
+  - Methoden
+    - Vollständige Induktion
+    - Summenformeln
+  - Konvergenz
+    - Grenzwertbegriff
+    - Nullfolgen
+- Grenzwerte & Stetigkeit
+  - Limes
+    - Grenzwertsätze
+    - Asymptoten
+    - Regel von L'Hospital
+  - Stetigkeit
+    - Punktweise Stetigkeit
+    - Sprungstellen
+    - Lücken
+- Differentialrechnung
+  - Grundlagen
+    - Differenzenquotient
+    - Tangentensteigung
+  - Ableitungsregeln
+    - Produktregel
+    - Quotientenregel
+    - Kettenregel
+  - Kurvendiskussion
+    - Extrema (Min/Max)
+    - Wendepunkte
+    - Krümmungsverhalten
+  - Anwendungen
+    - Optimierungsprobleme
+    - Tangentengleichung
+- Integralrechnung
+  - Grundlagen
+    - Stammfunktion
+    - Bestimmtes Integral
+    - Hauptsatz
+  - Methoden
+    - Substitution
+    - Partielle Integration
+  - Anwendungen
+    - Flächenberechnung
+    - Rotationsvolumen
+
+# Geometrie
+
+- Elementare Geometrie
+  - Ebene Figuren
+    - Dreiecke & Vierecke
+    - Kreisberechnung
+    - Satz des Pythagoras
+  - Körper
+    - Volumen
+    - Oberfläche
+- Trigonometrie
+  - Grundlagen
+    - Sinus, Kosinus, Tangens
+    - Einheitskreis
+    - Periodizität
+  - Identitäten
+    - Additionstheoreme
+    - Sinussatz
+    - Kosinussatz
+  - Gleichungen
+    - Goniometrische Gleichungen
+    - Lösungsmenge
+- Vektorielle Geometrie
+  - Vektoroperationen
+    - Addition
+    - Skalarmultiplikation
+    - Linearkombination
+  - Produkte
+    - Skalarprodukt
+    - Kreuzprodukt (Vektorprodukt)
+    - Spatprodukt
+  - Anwendungen
+    - Winkelberechnung
+    - Orthogonalität
+    - Volumenberechnung
+- Analytische Geometrie Ebene
+  - Objekte
+    - Geraden (Parameter/Normalen)
+    - Kreise
+    - Kegelschnitte (Ellipse/Parabel/Hyperbel)
+  - Lagebeziehungen
+    - Schnittpunkte
+    - Abstände
+    - Tangenten
+- Analytische Geometrie Raum
+  - Objekte
+    - Ebenen (Parameter/Koordinaten)
+    - Geraden im Raum
+    - Kugeln
+  - Lagebeziehungen
+    - Windschiefe Geraden
+    - Schnittwinkel
+    - Abstände (Punkt-Ebene)
+
+# Stochastik
+
+- Beschreibende Statistik
+  - Datendarstellung
+    - Histogramme
+    - Diagramme
+  - Kennzahlen
+    - Mittelwert
+    - Median & Modus
+    - Varianz & Standardabweichung
+- Kombinatorik
+  - Zählprinzipien
+    - Permutationen
+    - Variationen
+    - Kombinationen
+  - Sätze
+    - Binomischer Lehrsatz
+    - Pascalsches Dreieck
+- Wahrscheinlichkeitsrechnung
+  - Grundlagen
+    - Ereignisse
+    - Laplace-Wahrscheinlichkeit
+    - Baumdiagramme
+  - Regeln
+    - Additionsregel
+    - Multiplikationsregel
+    - Bedingte Wahrscheinlichkeit
+- Zufallsvariablen
+  - Kenngrößen
+    - Erwartungswert
+    - Varianz
+  - Verteilungen
+    - Binomialverteilung
+    - Normalverteilung
+
+# Lineare Algebra
+
+- Lineare Abbildungen
+  - Begriffe
+    - Kern (Nullraum)
+    - Bildraum
+    - Invertierbarkeit
+  - Darstellung
+    - Abbildungsmatrix
+    - Basiswechsel
+- Matrizenrechnung (2x2)
+  - Operationen
+    - Matrixmultiplikation
+    - Determinante
+    - Inverse Matrix
+  - Spezielles
+    - Einheitsmatrix
+    - Transponierte
+- Eigenwertprobleme
+  - Berechnung
+    - Eigenwerte
+    - Eigenvektoren
+    - Charakteristisches Polynom
+  - Bedeutung
+    - Streckung
+    - Invariante Richtungen
