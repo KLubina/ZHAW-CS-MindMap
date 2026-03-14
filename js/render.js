@@ -191,7 +191,7 @@ function render() {
   // Divider Gymi → Studium
   const divider2Html = `
       <div id="studium-start" class="section-divider${!isStudium ? " hidden" : ""}">
-<span>Studium – BSc ITET</span>
+  <span>Studium – ZHAW Informatik Teilzeit</span>
       </div>`;
 
   // Studium sections

@@ -5,172 +5,196 @@ const data = [
     label: "1. Semester",
     modules: [
       {
-        name: "Technische Mechanik",
+        name: "Software-Projekt 1",
         topics: [
           {
-            name: "Kinematik",
-            items: ["Kraft", "Moment", "Geschwindigkeit/Bewegung"],
+            name: 'Umsetzen der Lehrinhalte des parallelen Kurses "Programmieren 1".',
+            items: [],
           },
           {
-            name: "Statik",
+            name: "Weiteres:",
             items: [
-              "Gleichgewicht",
-              "Äquivalenz und Reduktion von Kräftegruppen",
-              "Reibung",
-            ],
-          },
-          {
-            name: "Dynamik",
-            items: [
-              "Newtonsches Bewegungsgesetz (2. Newton)",
-              "Impulssatz",
-              "Drallsatz",
+              "Teamarbeit",
+              "Selbstreflexion",
+              "Kommunikation technischer Inhalte",
+              "Codemanagement",
             ],
           },
         ],
       },
       {
-        name: "Netzwerk und Schaltungen I",
+        name: "Programmieren 1",
         topics: [
           {
-            name: "Physikalische Grundlagen",
-            items: [
-              "Stromursprung",
-              "Spannungsursprung",
-              "Elektrostatisches Feld",
-              "Leitungsmechanismen",
-            ],
+            name: "Konzepte der objektorientierten Programmierung (Klassen, Objekte etc.)",
+            items: [],
           },
           {
-            name: "Bauelemente & Analyse",
-            items: [
-              "Grundbauelemente",
-              "Mathematische Modelle",
-              "Schaltungsentwurf",
-              "Netzwerk-Analyse",
-            ],
+            name: "Grundlagen der Programmierung (Datentypen, Kontrollstrukturen etc.)",
+            items: [],
           },
           {
-            name: "Gleichstromnetzwerke",
+            name: "grundlegende Prinzipien und Praktiken von :",
             items: [
-              "Stromverteilung",
-              "Spannungsverteilung",
-              "Stationäres Strömungsfeld",
-              "Berechnungsmethoden",
-            ],
-          },
-          {
-            name: "Elektromagnetische Felder",
-            items: [
-              "Induktion",
-              "Zeitvariante Felder",
-              "Technische Anwendungen",
+              "Clean Code",
+              "Software Qualitätssicherung (Dokumentation und Unit-Test)",
+              "Vererbung",
+              "Komposition",
+              "Polymorphie",
             ],
           },
         ],
       },
       {
-        name: "Digitaltechnik",
+        name: "Datenbanken",
         topics: [
           {
-            name: "Grundlagen & Bausteine",
+            name: "Inhalte",
             items: [
-              "Analog vs. Digital",
-              "CMOS-Technik",
-              "Zahlensysteme",
-              "Speicherbausteine",
-            ],
-          },
-          {
-            name: "Schaltungsdesign",
-            items: [
-              "Logikgatter",
-              "Boolesche Algebra",
-              "Kombinatorik",
-              "Sequenzielle Logik",
-            ],
-          },
-          {
-            name: "Systementwurf",
-            items: [
-              "Endliche Automaten (FSM)",
-              "Zustandsspeicher",
-              "Mikroprozessor-Basics",
-              "Synthese-Methoden",
+              "relationale Algebra",
+              "Entity-Relationship-Design",
+              "SQL DDL/DML",
+              "effiziente und korrekte Datenbankabfragen in SQL",
+              "Indexe",
+              "Trigger",
+              "Transaktionen/ACID",
             ],
           },
         ],
       },
       {
-        name: "Analysis I",
+        name: "Information und Codierung",
         topics: [
           {
-            name: "Zahlenbereiche",
-            items: ["Reelle Zahlen", "Komplexe Zahlen"],
-          },
-          {
-            name: "Analysis-Grundlagen",
+            name: "Digitale Informationsverarbeitung & Codierung",
             items: [
-              "Folgen & Grenzwerte",
-              "Reihen & Potenzreihen",
-              "Stetige Abbildungen",
+              "Algorithmus-Begriff, Euklidischer Algorithmus",
+              "Digitale Grundeinheiten: Bit, Byte, Wort",
+              "Komplement-Darstellung: Einer- und Zweierkomplement",
+              "Rechnen im Zahlenkreis: Carry, Borrow, Overflow, Sign Extension",
             ],
           },
           {
-            name: "Differential- & Integralrechnung",
+            name: "Digitaltechnik",
             items: [
-              "Variable Funktionen",
+              "Logische Funktionen und Gatter: INV, AND, OR, NAND, NOR, XOR",
+              "Wahrheitstabellen und kombinatorische Schaltungen: Halb-/Voll-Addierer, Subtrahierer, Dekoder (z.B. BCD → 7-Segment), Komparator, Codeumwandlungen",
+              "Sequentielle Logik: Zähler, Schieberegister, einfacher Automat (z.B. Ampel)",
+            ],
+          },
+          {
+            name: "Informationstheorie",
+            items: [
+              "Grundlagen nach Shannon",
+              "Entropie, Informationsgehalt, Redundanz",
+              "Berechnung der Entropie",
+            ],
+          },
+          {
+            name: "Quellencodierung",
+            items: [
+              "Redundanz- und Irrelevanzreduktion, Präfixfreiheit",
+              "Huffman, Arithmetische Codierung, Lauflängencodierung, Lempel-Ziv",
+              "Überblick JPEG, MPEG (nur Ansätze)",
+              "Einsatzgebiete der Codierungen",
+            ],
+          },
+          {
+            name: "Kanalcodierung",
+            items: [
+              "Kanalkapazität nach Shannon",
+              "Hamming-Distanz",
+              "Fehlererkennung: Parität, CRC, Checksumme",
+              "Fehlerkorrektur: Hamming-Code, Block-Code, Faltungscode (Überblick)",
+            ],
+          },
+        ],
+      },
+      {
+        name: "Grundlagen der Elektrotechnik und Digitaltechnik",
+        topics: [
+          {
+            name: "Grundlagen",
+            items: [
+              "Grundbegriffe: Ladung, Kraft, Energie, Leistung, Spannung",
+              "Strom und Widerstand: Widerstand, Strom, Ohmsches Gesetz",
+              "Schaltungen: Kirchhoffsche Gesetze, Reihen- und Parallelschaltungen",
+              "Reaktive Bauteile: Induktivität, Kapazität, Ein- und Ausschaltverhalten",
+              "Signalformen: Zeit- und Frequenzraum, Amplitude, Frequenz, Bandbreite, Fourier-Transformation, Spektrum",
+              "Filter: Hochpass, Tiefpass, Bezug zur Informatik",
+            ],
+          },
+          {
+            name: "Halbleitertechnik",
+            items: [
+              "Dioden, Transistoren: Funktionsweise, Push-Pull und Open-Drain Outputs",
+              "Digitaltechnik: Logikgatter, Logikfamilien, Zusammenschaltung zu D-Flipflop, Zusammenhang Boolsche Algebra",
+            ],
+          },
+          {
+            name: "Felder & Wellen",
+            items: [
+              "Elektrische und magnetische Felder",
+              "Elektromagnetische Wellen: Frequenz, Wellenlänge, Ausbreitungsgeschwindigkeit",
+              "Wechselwirkung mit Medium: Brechung, Reflexion, Dispersion, Absorption (z. B. Glasfaser), Dämpfung, SNR",
+            ],
+          },
+        ],
+      },
+      {
+        name: "Analysis 1",
+        topics: [
+          {
+            name: "Konzepte der Differential- und Integralrechnung",
+            items: [
+              "Ableitung",
+              "Stammfunktionen und Flächeninhalte bei Polynomen",
+            ],
+          },
+          {
+            name: "Folgen, Reihen (mit Summen) und Grenzwerte",
+            items: [
+              "Folgen (direkt, rekursiv, arithmetisch/geometrisch)",
+              "Grenzwertbegriff (Rechenregeln, Limes einer Funktion), Stetigkeit",
+              "Reihen (arithmetisch/geometrisch)",
+            ],
+          },
+          {
+            name: "Erweiterung der Differentialrechnung",
+            items: [
+              "Ableitung elementarer Funktionen",
               "Ableitungsregeln",
-              "Integrationsmethoden",
+              "Kurvendiskussion",
+              "Gebrochen rationale Funktionen (Polstellen, hebbare Definitionslücken, Asymptoten)",
+              "Extremwertaufgaben",
+              "Newton-Verfahren",
             ],
-          },
-          {
-            name: "Differentialgleichungen",
-            items: ["Einführung", "Gewöhnliche DGLs"],
           },
         ],
       },
       {
-        name: "Lineare Algebra",
+        name: "Diskrete Mathematik",
         topics: [
           {
-            name: "Lineare Gleichungssysteme",
-            items: ["Gauss-Algorithmus", "Matrizen-Operationen"],
-          },
-          {
-            name: "Matrizenzerlegungen",
+            name: "Inhalte",
             items: [
-              "LU-Zerlegung",
-              "QR-Zerlegung",
-              "Singulärwertzerlegung (SVD)",
-            ],
-          },
-          {
-            name: "Vektorräume",
-            items: [
-              "Basiswahl & -wechsel",
-              "Lineare Abbildungen",
-              "Koordinatentransformation",
-            ],
-          },
-          {
-            name: "Norm & Skalarprodukt",
-            items: ["Gram-Schmidt-Verfahren", "Projektoren"],
-          },
-          {
-            name: "Eigenwertprobleme",
-            items: [
-              "Eigenwerte & Eigenvektoren",
-              "Determinanten",
-              "Symmetrische Matrizen",
-            ],
-          },
-          {
-            name: "Anwendungen",
-            items: [
-              "Ausgleichsrechnung",
-              "Numerische Aspekte",
-              "Python (NumPy/SciPy)",
+              "Grundbegriffe: Zahlenmengen, Aussagen, Prädikate und Quantoren",
+              "Mengen: Elemente, Teilmengen und Extensionalität",
+              "Mengen: Aussonderungs- und Ersetzungsprinzip",
+              "Mengenoperationen: Potenzmenge, Schnittmenge, Vereinigungsmenge",
+              "Mächtigkeitsbegriff: Abzählbarkeit und Überabzählbarkeit, erstes und zweites",
+              "Diagonalargument",
+              "Relationen: Tupel und Produktmengen",
+              "Funktionen als Relationen",
+              "Äquivalenzrelationen, Äquivalenzklassen und Partitionen",
+              "(Halb-) Ordungsrelationen, Hasse Diagramme, Satz von Marczewski-Szpilrajn",
+              "Rekursive Strukturen: Natürliche Zahlen, Peano Axiome und Induktion, Wohlfundierte",
+              "Induktion, induktive Definitionen und strukturelle Induktion.",
+              "Elementare Zahlentheorie: Teilbarkeit und Euklidischer Algorithmus",
+              "Primzahlen und Primfaktorzerlegung",
+              "Modulare Arithmetik und das Lemma von Bézout",
+              "Chinesischer Restsatz und Lösen simultaner Kongruenzen",
+              "Kleiner Satz von Fermat",
             ],
           },
         ],
@@ -182,171 +206,160 @@ const data = [
     label: "2. Semester",
     modules: [
       {
-        name: "Physik I",
+        name: "Programmieren 2",
         topics: [
           {
-            name: "Schwingungen & Wellen",
+            name: "Erweiterte Java-Sprachkonzepte",
+            items: [
+              "Verschachtelte-, Innere- & Anonyme-Klassen",
+              "Funktionale Programmierung: Lambda-Ausdrücke / Funktionale Interfaces",
+              "Methodenreferenzen, Funktionen als Argumente und Rückgabewerte",
+              "Funktionale Streams",
+            ],
+          },
+          {
+            name: "Nebenläufigkeit",
+            items: [
+              "Grundlagen von Nebenläufigkeit",
+              "Der Thread Lebenszyklus",
+              "Thread-Management: Executor-Services / Thread-Pooling",
+              "Callables / Futures",
+              "Thread-Safety, Atomare Typen",
+              "Kooperation von Threads: Wechselseitiger Ausschluss & Zustandssynchronisation",
+              "Erweitertes Monitor-Konzept, Lock & Conditions",
+              "Vermeiden von Deadlocks",
+            ],
+          },
+          {
+            name: "Einfache grafische Benutzeroberflächen (GUIs)",
+            items: [
+              "GUI-Prinzipien, -Architektur, -Komponenten und -Layout",
+              "Entwickeln von GUI-Anwendungen mittels JavaFX und FXML",
+              "Model-View-Controller / Presenter & Observer-Pattern",
+              "Dynamik von Benutzeroberflächen: Ereignisverarbeitung",
+            ],
+          },
+          {
+            name: "Ein- und Ausgabe von Daten – Java IO",
+            items: [
+              "Umgang mit dem Filesystem (Dateien & Verzeichnisse)",
+              "Lesen und Schreiben von Dateien",
+              "Das Decorator Pattern",
+              "Umgang mit Resourcen, Properties & Resource-Bundle",
+              "Datencodierung und Zeichensätze",
+            ],
+          },
+          {
+            name: "Mock-Testing",
+            items: [
+              "Prinzipien und Ökonomie von Software Testing",
+              "Testisolation: Testdoubles, Stubbing & Mocking",
+              "Zustandstests vs. Verhaltensverifikation",
+              "Erstellen von Mock-Tests",
+            ],
+          },
+        ],
+      },
+      {
+        name: "Software-Projekt 2",
+        topics: [
+          {
+            name: "Wenden die Lerninhalte aus Programmieren 1 & 2 an.",
             items: [],
-            subtopics: [
-              {
-                name: "Schwingungstypen",
-                items: ["Harmonisch", "Gedämpft", "Erzwungen"],
-              },
-              {
-                name: "Wellenpropagation",
-                items: ["Energie & Intensität", "Beugung & Reflektion"],
-              },
-              {
-                name: "Welleneffekte",
-                items: [
-                  "Dopplereffekt",
-                  "Interferenz & Überlagerung",
-                  "Resonanz",
-                  "Stehende Wellen",
-                ],
-              },
-            ],
           },
           {
-            name: "Thermodynamik",
+            name: "Inhalte",
+            items: [
+              "Softwareanalyse und Refactoring",
+              "Projektplanung und Fortschrittstracking",
+              "Anwendung von Entwicklungswerkzeugen im Team",
+              "Ideenfindung und Evaluation",
+              "Reflexion von Projektverlauf und Ergebnis",
+            ],
+          },
+        ],
+      },
+      {
+        name: "Systemnahe Programmierung",
+        topics: [
+          {
+            name: "C und Unix-ähnliche Betriebssysteme sind eng verwandt und in der heutigen Informatik unabdingbar.",
             items: [],
-            subtopics: [
-              {
-                name: "Gaseigenschaften",
-                items: ["Kinetische Gastheorie", "Ideales Gas"],
-              },
-              {
-                name: "Hauptsätze",
-                items: ["Energieerhaltung", "Kreisprozesse", "Entropie"],
-              },
-              { name: "Wärmetransport", items: ["Übertragung", "Strahlung"] },
+          },
+          {
+            name: "Inhalte",
+            items: [
+              "Grundlegende Programmelemente (Sprachelemente, Datentypen, Variablen, Konstanten, Deklarationen, Operatoren, Ausdrücke, Kontrollstrukturen, Strukturen)",
+              "Funktionen, Arrays, Pointer, Memory Management",
+              "Modulare Programmierung (inkl. Präprozessor, Compiling und Linking)",
+              "MISRA C",
+              "Prozesse und Threads",
+              "Koordination und Kooperation",
+              "Prozesssynchronisation",
+              "Interprozesskommunikation",
+              "Datenhandhabung",
+              "Speicherverwaltung",
+              "Datei-Systeme",
             ],
           },
         ],
       },
       {
-        name: "Analysis II",
+        name: "Kommunikationstechnik",
         topics: [
           {
-            name: "Mehrdimensionale Differentialrechnung",
+            name: "Inhalte",
             items: [
-              "Partielle Ableitungen",
-              "Ableitungsregeln",
-              "Implizite Funktionen",
-              "Extremwertaufgaben",
-            ],
-          },
-          {
-            name: "Mehrdimensionale Integralrechnung",
-            items: [
-              "Mehrfachintegrale",
-              "Integrationsmethoden",
-              "Integration über Untermannigfaltigkeiten",
-            ],
-          },
-          {
-            name: "Vektoranalysis",
-            items: ["Vektorfelder", "Satz von Gauss", "Satz von Stokes"],
-          },
-        ],
-      },
-      {
-        name: "Mathematische Methoden",
-        topics: [
-          {
-            name: "Komplexe Analysis",
-            items: [
-              "Komplexe Funktionen",
-              "Ableitungsregeln",
-              "Cauchy-Riemann-Gleichungen",
-            ],
-          },
-          {
-            name: "Integration",
-            items: ["Komplexes Integral", "Residuensatz", "Anwendungen"],
-          },
-          {
-            name: "Reihenentwicklungen",
-            items: ["Taylor-Reihen", "Laurent-Reihen"],
-          },
-          {
-            name: "Transformationen",
-            items: [
-              "Fourier-Reihen",
-              "Fourier-Transformation",
-              "Laplace-Transformation",
+              "Local Area Networks (Ethernet, Bridging)",
+              "Internet Protokolle (IP, Routing)",
+              "Transport Layer (UDP, TCP)",
+              "Netzwerk Applikationen, Infrastrukturdienste und Protokolle (DNS, DHCP, NAT, HTTP etc.)",
+              "Schnittstelle zum Transport Layer (Socket-API)",
             ],
           },
         ],
       },
       {
-        name: "Netzwerk und Schaltungen II",
+        name: "Theoretische Informatik",
         topics: [
           {
-            name: "Wechselstromrechnung",
+            name: "Motivation der theoretischen Informatik:",
             items: [
-              "Komplexe Methoden",
-              "Maschenstromverfahren",
-              "Knotenpotentialverfahren",
-              "Netzwerksätze",
+              "Formale Berechnungsmodelle - Grundlegende Prinzipien erkennen, unabhängig von Hard- und Software - Grenzen der automatischen Berechnungen",
             ],
           },
           {
-            name: "Systemverhalten",
+            name: "(1) Formale Sprachen / Automatentheorie:",
             items: [
-              "Zeitbereich",
-              "Frequenzbereich",
-              "Übergangsverhalten",
-              "Übertragungsfunktion",
-              "Zweitore",
+              "Grundlegende Definitionen der Formalen Sprachen",
+              "Reguläre Sprachen, endlicher Automat (DEA, NEA, e-NEA)",
+              "Kontextfreie Sprachen, Kellerautomaten",
+              "(Rekursive Sprachen), Turingmaschine (TM)",
+              "Chomsky-Hierarchie",
             ],
           },
           {
-            name: "Signalanalyse",
+            name: "(2) Berechenbarkeit und Algorithmus-Begriff:",
             items: [
-              "Nicht-sinusförmige Signale",
-              "Fourierzerlegung",
-              "Fouriertransformation",
-              "Laplacetransformation",
+              "Berechenbare Funktionen Church'sche These",
+              "Äquivalenz von TM und Computer",
+              "Berechenbarkeit und Programmier-Sprachen: GOTO-, While- und Loop-Programme.",
+              "Algorithmus-Begriff",
+              "Primitive Rekursion",
+              "Nicht-Entscheidbarkeit und Entscheidbarkeit: Diagonalisierungssprache Ld, Satz von Rice, Fleissige Bieber",
+              "Semi-entscheidbare Probleme: Halteproblem, Game-of-Life, Collatz-Zahlen",
+              "Reduktion",
             ],
           },
           {
-            name: "Operationsverstärker",
+            name: "(3) Komplexitätstheorie",
             items: [
-              "Grundschaltungen",
-              "Gegentaktverstärker",
-              "Differenzverstärker",
-              "Dimensionierung",
-            ],
-          },
-        ],
-      },
-      {
-        name: "Informatik I",
-        topics: [
-          {
-            name: "Grundlagen",
-            items: [
-              "Fundamentale Datentypen",
-              "Ausdrücke & Anweisungen",
-              "Computerarithmetik",
-            ],
-          },
-          {
-            name: "Programmierkonzepte",
-            items: [
-              "Kontrollstrukturen",
-              "Funktionen",
-              "Klassen (OOP)",
-              "Referenzen & Zeiger",
-            ],
-          },
-          {
-            name: "Datenstrukturen",
-            items: [
-              "Containertypen",
-              "Dynamische Datentypen",
-              "Speichermanagement",
+              "Komplexität von Algorithmen",
+              "O-Notation (Omega-Notation)",
+              "polynomiale Funktionen und exponentielle Funktionen",
+              "Klasse P, Klasse NP",
+              "NP-vollständig, NP-schwierig",
+              "(Polynomialzeit-Reduktion)",
             ],
           },
         ],
@@ -358,234 +371,197 @@ const data = [
     label: "3. Semester",
     modules: [
       {
-        name: "Signal- und Systemtheorie I",
+        name: "Software-Projekt 3",
         topics: [
           {
-            name: "Grundlagen",
+            name: "In diesem Modul entwickeln Sie eine grössere objektorientierte Softwareapplikation.",
             items: [
-              "Signalklassifikation",
-              "Systemklassifikation",
-              "Zeit- & Frequenzbereich",
-              "Signal- & Hilberträume",
-            ],
-          },
-          {
-            name: "Systemtheorie",
-            items: [
-              "Lineare zeitinvariante Systeme (LTI)",
-              "Verallgemeinerte Funktionen",
-            ],
-          },
-          {
-            name: "Abtastung",
-            items: ["Zeitkontinuierliche Signale", "Abtasttheorem"],
-          },
-          {
-            name: "Zeitdiskrete Systeme",
-            items: ["Systemverhalten", "z-Transformation"],
-          },
-          {
-            name: "Fouriertransformation",
-            items: [
-              "Diskrete Fourier-Transformation (DFT)",
-              "Schnelle Fourier-Transformation (FFT)",
+              "Dabei werden die vermittelten Analyse- und Entwurfs-Kompetenzen aus dem Modul SWEN1 angewendet (Wissenstransfer).",
             ],
           },
         ],
       },
       {
-        name: "Informatik II",
+        name: "Software-Entwicklung 1",
         topics: [
           {
-            name: "Algorithmen & Komplexität",
-            items: ["Asymptotische Laufzeit (O-Notation)"],
-            subtopics: [
-              { name: "Basis-Algorithmen", items: ["Suchen", "Sortieren"] },
-              {
-                name: "Graphenalgorithmen",
-                items: ["Kürzeste Wege", "Spannbäume"],
-              },
+            name: "Dieses Modul vermittelt die nötigen Analyse- und Entwurfs-Kompetenzen, um grössere und komplexere Softwareapplikationen entwickeln und realisieren zu können.",
+            items: [],
+          },
+          {
+            name: "Einführung und Softwareentwicklungsprozessmodelle (4 Lektionen)",
+            items: [
+              "Überblick über Softwareentwicklungsprozessmodelle und deren Anwendungsgebiete (Wasserfall, iterativ-inkrementell und agile)",
+              "Ablauf und Artefakte in einem iterativ-inkrementellen, Use-Case-getriebenen und architekturzentrierten Softwareentwicklungsprozess",
+            ],
+          },
+          {
+            name: "Anforderungsanalyse (16 Lektionen)",
+            items: [
+              "Einführung in Usability und UX (Contextual Inquiry, Personas und Szenarien, UI-Sketching & Prototyping)",
+              "Erhebung und Kommunikation von funktionalen Anforderungen mit Use Cases (UML-Use-Case-Diagramm, Use-Case-Spezifikation)",
+              "Erhebung und Kommunikation von nicht funktionalen Anforderungen",
+              "(Qualitätsanforderungen, Randbedingungen)",
+              "Modellierung der Fachlichkeit und Begriffe des Anwenders (Domänenmodell) und Einführung in Domain Driven Design (DDD, konzeptuelles UML-Klassendiagramm)",
+            ],
+          },
+          {
+            name: "Softwarearchitektur und Design (36 Lektionen)",
+            items: [
+              "Entwurf und Modellierung einer Softwarearchitektur (4+1 Sicht, UML-Paketdiagramm, UML-Deploymentdiagramm)",
+              "Einführung in Clean Architecture (SOLID Prinzipien, Schichtenarchitektur, Onion Architecture)",
+              "Use-Case-Realisierung und Klassendesign (Responsibility Driven Design (RDD), UML-Klassendiagramm, UML-Sequenzdiagramm, UML-Kommunikationsdiagramm, UML-Zustandsdiagramm, UML-Aktivitätsdiagramm)",
+              "Entwurf mit Design Patterns (GoF: Factory, Singleton, Adaptor, Bridge, Composite, Decorator, Facade, Proxy, Chain of Responsibility, Observer, State, Strategy, Visitor)",
+              "Verschiedene Vertiefungsthemen wie zum Beispiel:Verteilte Systeme, GUI-Architekturen, Persistenz, Framework-Design",
+            ],
+          },
+        ],
+      },
+      {
+        name: "Web-Entwicklung",
+        topics: [
+          {
+            name: "Einführung in JavaScript mit Node.js (12 Lektionen)",
+            items: [
+              "JS Engines, ECMAScript- und JavaScript-Versionen und Alternativen, Transpiler",
+              "Grundlagen: Variablen, Datentypen, Arrays, Funktionen",
+              "Objektmodell: Objekte, Konstruktoren, Prototypen, Klassen",
+              "Asynchrone Ausführung von Funktionen, Callbacks, Event Queue, Promises",
+              "Webserver mit Node.js: Modulsystem, JSON, RESTful APIs",
+            ],
+          },
+          {
+            name: "JavaScript im Browser (8 Lektionen)",
+            items: [
+              "Document Object Model",
+              "Ereignisbehandlung im Browser",
+              "Asynchrone Client-Server-Kommunikation (Ajax, Fetch-API)",
+              "Zustand (Cookies, Sessions) und Authentisierung",
+            ],
+          },
+          {
+            name: "Web Framework (8 Lektionen)",
+            items: [
+              "Bau eines eigenen Frameworks für Single Page Applications",
+              "Komponentenarchitektur und render-Methode",
+              "Zustand von Komponenten, Properties, Komponententypen",
+              "Lebenszyklus von Komponenten",
+              "Ereignisbehandlung und Routnig",
+              "Zustandscontainer",
+            ],
+          },
+        ],
+      },
+      {
+        name: "Computertechnik 1",
+        topics: [
+          {
+            name: "Organisation eines Computersystems",
+            items: [
+              "Informationsdarstellung und Übersetzung von Programmen",
+              "Hardware-Architektur: CPU, Memory, I/O, Bus",
+              "Komponenten und Funktionsweise einer CPU",
+              "Instruktionssatz: Codierung von Instruktionen und Operanden",
+              "Befehlsverarbeitung",
+              "Leistungsmerkmale von Prozessoren",
+            ],
+          },
+          {
+            name: "Datentransfer und Speicherorganisation",
+            items: [
+              "Adressierungsarten",
+              "Speicherzugriff",
+              "Integer Datentypen, Arrays, Pointers",
+              "Memory Map",
+              "Endianess",
+            ],
+          },
+          {
+            name: "Arithmetic Logic Unit (ALU)",
+            items: [
+              "Arithmetische und logische Operationen",
+              "Prozessorstatusregister und Flags",
+              "Rechnen mit der ALU",
+              "Integer Casting",
+            ],
+          },
+          {
+            name: "Programmablaufsteuerung, Funktionen und Unterprogramme",
+            items: [
+              "Vergleichs- und Sprungbefehle",
+              "Strukturierte Codierung",
+              "Abbildung von KontrollstrukturenParameterübergabe und Stackframe",
+            ],
+          },
+          {
+            name: "Exceptional Control Flow",
+            items: [
+              "Hardware Interrupts",
+              "Interrupt Service Routine",
+              "Vektortabelle",
+              "Exceptions (Traps)",
+            ],
+          },
+          {
+            name: "Linking",
+            items: [
+              "Aufgaben und Funktionsweise eines Linkers",
+              "Address Resolution und Relocation",
+              "Linker Map und Symbol Table",
+            ],
+          },
+        ],
+      },
+      {
+        name: "Algorithmen und Datenstrukturen",
+        topics: [
+          {
+            name: "Allgemeine Konzepte",
+            items: [
+              "Asymptotische Komplexität (O-Notation)",
+              "Analyse von Algorithmen (Laufzeit und Speicherplatz)",
+            ],
+          },
+          {
+            name: "Algorithmen-Paradigmen",
+            items: [
+              "Rekursion",
+              "Backtracking",
+              "Greedy-Algorithmen",
+              "Divide and Conquer",
             ],
           },
           {
             name: "Datenstrukturen",
-            items: ["Hashtabellen"],
-            subtopics: [
-              {
-                name: "Baumstrukturen",
-                items: ["Suchbäume", "Balancierte Bäume", "Heaps"],
-              },
-            ],
-          },
-          {
-            name: "Entwurfsstrategien",
             items: [
-              "Induktion",
-              "Divide & Conquer",
-              "Backtracking",
-              "Dynamische Programmierung",
+              "Stack und Queue",
+              "Liste",
+              "Hash-Tabelle",
+              "Bäume",
+              "Graphen",
             ],
           },
           {
-            name: "Generische Programmierung",
-            items: ["C++ Templates"],
-            subtopics: [
-              {
-                name: "Funktionale Konzepte",
-                items: ["Funktionen höherer Ordnung", "Lambdas", "Closures"],
-              },
-            ],
-          },
-          {
-            name: "Parallelisierung",
-            items: [],
-            subtopics: [
-              {
-                name: "Grundlagen",
-                items: ["Nebenläufigkeit", "Abhängigkeiten"],
-              },
-              { name: "Speichermodelle", items: ["Geteilter Speicher"] },
-              {
-                name: "Synchronisation",
-                items: ["Race Conditions", "Mutex", "Kommunikation"],
-              },
-            ],
-          },
-        ],
-      },
-      {
-        name: "Halbleiterschaltungstechnik",
-        topics: [
-          {
-            name: "Transistor-Grundlagen",
+            name: "Algorithmen",
             items: [
-              "Bauteile (Bipolar/MOSFET)",
-              "Signalverhalten",
-              "Arbeitspunkt",
-              "Eintransistorverstärker",
+              "Suchen",
+              "Baum-Traversierung",
+              "Rotation in ausgeglichenen Suchbäumen",
+              "Hash-Tabellen",
+              "Kürzeste Wege in Graphen",
+              "Breiten und Tiefensuche in Graphen",
+              "Sortierverfahren",
+              "Untere Laufzeit-Schranke",
             ],
           },
           {
-            name: "Frequenzanalyse",
-            items: ["Verstärker-Frequenzgang", "Bandbreitenerweiterung"],
-          },
-          {
-            name: "Spezielle Verstärker",
-            items: ["Differenzverstärker", "Transimpedanzverstärker"],
-            subtopics: [
-              {
-                name: "Instrumentierungsverstärker",
-                items: ["Störunterdrückung", "Chopper-Technik"],
-              },
-            ],
-          },
-          {
-            name: "Aktive Filter",
+            name: "Algorithmen in Java",
             items: [
-              "Grundstrukturen",
-              "Biquadratische Stufen",
-              "Höhere Ordnung",
-              "Switched-Cap-Filter",
-            ],
-          },
-        ],
-      },
-      {
-        name: "Physik II",
-        topics: [
-          {
-            name: "Quantenmechanik Grundlagen",
-            items: ["Wellenmechanik", "Postulate & Formalismus"],
-          },
-          {
-            name: "Modellsysteme",
-            items: [
-              "Potentialtopf",
-              "Harmonischer Oszillator",
-              "Wasserstoffatom",
-            ],
-          },
-          {
-            name: "Mehrteilchensysteme",
-            items: ["Identische Teilchen", "Pauli-Prinzip", "Quantenstatistik"],
-          },
-          {
-            name: "Festkörperphysik",
-            items: ["Kristallsysteme", "Bandstrukturen"],
-          },
-          {
-            name: "Konzepte & Anwendungen",
-            items: [
-              "Näherungsmethoden",
-              "Verschränkung & Superposition",
-              "Engineering-Anwendungen",
-            ],
-          },
-        ],
-      },
-      {
-        name: "Diskrete Mathematik",
-        topics: [
-          { name: "Mengenlehre", items: ["Grundlagen", "Axiome"] },
-          {
-            name: "Kombinatorik",
-            items: ["Zählformen", "Zählprinzipien", "Spezielle Zählprobleme"],
-          },
-          {
-            name: "Graphentheorie",
-            items: [],
-            subtopics: [
-              { name: "Graphenarten", items: ["Netzwerke", "Bäume"] },
-              {
-                name: "Graphenprobleme",
-                items: ["Einfärbung", "Flüsse & Schnitte", "Matchings"],
-              },
-            ],
-          },
-          {
-            name: "Algebra",
-            items: [],
-            subtopics: [
-              { name: "Zahlentheorie", items: ["Teilbarkeit", "Kongruenz"] },
-              { name: "Strukturen", items: ["Gruppen", "Körper & Ringe"] },
-              {
-                name: "Anwendungen",
-                items: ["Kryptographie", "Fehlerkorrektur"],
-              },
-            ],
-          },
-        ],
-      },
-      {
-        name: "Analysis III",
-        topics: [
-          { name: "PDE Einführung", items: ["Klassifikation", "Typen"] },
-          {
-            name: "Quasilineare DGLs",
-            items: ["Charakteristikenmethode", "Erhaltungssätze"],
-          },
-          {
-            name: "Hyperbolische DGLs",
-            items: [
-              "Wellengleichung",
-              "d'Alembert-Formel",
-              "Separationsansatz",
-            ],
-          },
-          {
-            name: "Parabolische DGLs",
-            items: [
-              "Wärmeleitungsgleichung",
-              "Maximumsprinzip",
-              "Separationsansatz",
-            ],
-          },
-          {
-            name: "Elliptische DGLs",
-            items: [
-              "Laplace-Gleichung",
-              "Maximumsprinzip",
-              "Variationsmethoden",
+              "Objects/equals/hashCode",
+              "Comparator/Comparable",
+              "Collections",
+              "Generics",
+              "Iterator",
             ],
           },
         ],
@@ -597,191 +573,146 @@ const data = [
     label: "4. Semester",
     modules: [
       {
-        name: "Signal- und Systemtheorie II",
+        name: "Software-Projekt 4",
         topics: [
           {
-            name: "Systemmodellierung",
-            items: ["Dynamische Systeme", "LTI-Systeme", "Zustandsgleichungen"],
-          },
-          {
-            name: "Zustandsraumanalyse",
-            items: [
-              "Lösungsmethoden",
-              "Stabilität",
-              "Steuerbarkeit",
-              "Beobachtbarkeit",
-            ],
-          },
-          {
-            name: "Frequenzbereichsanalyse",
-            items: ["Frequenzgang", "Bode-Diagramm", "Nyquist-Diagramm"],
-          },
-          {
-            name: "Zeitdiskrete Systeme",
-            items: ["Abtastung", "Systemmodelle"],
-          },
-          {
-            name: "Erweiterte Themen",
-            items: [
-              "Nichtlineare Systeme",
-              "Chaos",
-              "Diskrete Ereignisse",
-              "Hybride Systeme",
-            ],
-          },
-        ],
-      },
-      {
-        name: "Technische Informatik",
-        topics: [
-          {
-            name: "Hardware-Architektur",
+            name: "Die Studierenden führen in einem Team von etwa 7 (±2) Personen ein Software-Entwicklungsprojekt - von der Projektvision bis zur kundengerechten Software - mit SCRUM durch",
             items: [],
-            subtopics: [
-              {
-                name: "Mikroprozessoren",
-                items: ["Control Paths", "Data Paths"],
-              },
-              {
-                name: "Optimierungen",
-                items: ["Pipelining", "Speculation", "Caching"],
-              },
-            ],
-          },
-          {
-            name: "Software-Systeme",
-            items: ["Low-Level Programmierung"],
-            subtopics: [
-              {
-                name: "Betriebssystem-Konzepte",
-                items: ["Prozess-Management", "Scheduling"],
-                subtopics: [
-                  {
-                    name: "Speicherverwaltung",
-                    items: ["Physisch", "Virtuell"],
-                  },
-                ],
-              },
-            ],
           },
         ],
       },
       {
-        name: "Halbleiterelemente",
+        name: "Software-Entwicklung 2",
         topics: [
-          { name: "Einführung", items: ["Historie der Mikroelektronik"] },
           {
-            name: "Halbleiterphysik",
-            items: [
-              "Festkörper-Kristallstruktur",
-              "Halbleitereigenschaften (Si)",
-              "Quantenmechanik & Bändermodell",
-              "Leitfähigkeit & Dispersion",
-              "Gleichgewichtsstatistik",
-              "Transportgleichungen",
-              "Generation & Rekombination",
-            ],
-          },
-          {
-            name: "Bauelemente",
+            name: "In dieser Vorlesung lernen die Studierenden die wichtigsten agilen Prinzipien, Praktiken und Werte von SCRUM sowie XP kennen",
             items: [],
-            subtopics: [
-              { name: "pn-Übergang", items: ["Physik & Elektrik"] },
-              {
-                name: "pn-Diode",
-                items: [
-                  "Kennlinien",
-                  "Kleinsignalverhalten",
-                  "Durchbruchmechanismen",
-                ],
-              },
-              {
-                name: "MOS-Bauelemente",
-                items: [
-                  "Bänderdiagramm",
-                  "MOSFET-Betrieb",
-                  "CV- & IV-Charakteristiken",
-                  "Frequenzverhalten",
-                ],
-              },
-              {
-                name: "Bipolartransistoren",
-                items: [
-                  "Funktionsprinzip",
-                  "Betriebsmodi",
-                  "Modellierung & Simulation",
-                ],
-              },
+          },
+        ],
+      },
+      {
+        name: "Betriebssysteme",
+        topics: [
+          {
+            name: "Inhalte",
+            items: [
+              "Analyse und Vergleich von MBR- und UEFI-Bootprozessen in Linux-Systemen: Funktionsweise, Vor- und Nachteile.",
+              "Entwicklung eines minimalistischen Bootloaders zur Initialisierung eines Testsystems.",
+              "Vergleich verschiedener Prozess-Scheduling-Algorithmen (z. B. Round-Robin, CFS, Priority) und deren Einfluss auf Systemleistung.",
+              "Messung und Steuerung von Prozessressourcen mittels cgroups: Limits, Prioritäten und Isolation.",
+              "Untersuchung der Speicherverwaltung in Linux: Virtueller Speicher, Paging, Swapping und Seitentabellen.",
+              "Entwicklung eines einfachen Linux-Kernelmoduls oder Gerätetreibers unter Nutzung von DKMS.",
+              "Vergleich von Dateisystemen und Overlay Filesystems hinsichtlich Performance, Zuverlässigkeit und RAM-/TMP-Usage.",
+              "Analyse und Nutzung des Logical Volume Managers (LVM): Partitionen, Volumes und Storage-Management.",
+              "Implementierung und Performanceanalyse virtueller Maschinen mit KVM/QEMU und Libvirt.",
+              "Untersuchung von Systemaufrufen und Netzwerktreibern im Betriebssystem: Funktionsweise und Performance-Effekte.",
             ],
           },
         ],
       },
       {
-        name: "Elektromagnetische Wellen und Felder",
+        name: "Computertechnik 2",
         topics: [
           {
-            name: "Grundlagen",
-            items: ["Maxwell'sche Gleichungen", "Wellengleichung"],
+            name: "Das Modul zeigt den Ausbau eines Prozessors zu einem vollständigen Computer System.",
+            items: [],
           },
           {
-            name: "Wellenausbreitung",
-            items: ["Felder im freien Raum", "Brechung & Reflexion"],
+            name: "Vom Prozessor zum System",
+            items: [
+              "Aufbau eines Microcontrollers",
+              "Funktionsweise Systembus",
+              "Memory Map und Adressdekodierung",
+              "Funktion und Verwendung von Kontroll- und Statusregistern.",
+            ],
           },
           {
-            name: "Strahlung",
-            items: ["Dipolstrahlung", "Feldwinkelspektrum"],
+            name: "Einsatz von Peripherieschaltungen",
+            items: [
+              "Anschluss von IOs über GPIO",
+              "Serieller Datentransfer: UART / SPI / I2C",
+              "Timer / Counter und ihre Anwendungen",
+              "Analog Digital Converter (ADC)",
+              "Hardware Abstraction",
+            ],
+          },
+          {
+            name: "Speicherhierarchien",
+            items: [
+              "Speichertechnologien: Volatile (SRAM, DRAM) vs. non-volatile (ROM, Flash, EEPROM)",
+              "Anschluss von externen Speicherbausteinen",
+              "Cache: Temporal and Spatial Locality, Auswirkungen auf die Software",
+            ],
+          },
+          {
+            name: "Ablaufsteuerung von Programmen",
+            items: [
+              "Strukturierung eines Programmes in Module",
+              "Software State-Machines (State-Event Model)",
+              "Erkennen von Events: Polling vs. Interrupt-driven IO",
+              "Interrupt Performance und Latency",
+            ],
+          },
+          {
+            name: "Hardwarenahe Programmierpraktika",
+            items: ["Arbeiten mit Cross-Compiler, Linker, Loader und Debugger"],
           },
         ],
       },
       {
-        name: "Numerik",
+        name: "IT-Sicherheit",
         topics: [
-          { name: "Grundlagen", items: ["Scientific Python", "Fehleranalyse"] },
           {
-            name: "Analysis-Methoden",
-            items: ["Nullstellensuche", "Newton-Verfahren", "Quadratur"],
-          },
-          {
-            name: "Differentialgleichungen",
+            name: "Inhalte",
             items: [
-              "Anfangswertaufgaben",
-              "Einschrittverfahren",
-              "Schrittweitensteuerung",
-              "Stabilitätsanalyse",
+              "Einführung in die Kryptographie (Secret and Public Key Kryptographie, Hashfunktionen, Signaturen, Message Authentication Codes)",
+              "Zertifikate und Public Key Infrastructure",
+              "Sichere Protokolle (TLS, Quic, WPA2, etc.)",
+              "Mechanismen zum Absichern von Netzwerken (Network Access Control, Firewall, VPN, etc.)",
+              "Methoden zur Benutzerauthentisierung",
+              "Autorisierungskonzepte in Unix und Windows",
+              "Rechtliche Rahmenbedingungen mit Bezug auf Cybersecurity in der Schweiz",
             ],
           },
         ],
       },
       {
-        name: "Wahrscheinlichkeitstheorie und Statistik",
+        name: "Maschinelles Lernen & Data Mining",
         topics: [
           {
-            name: "Wahrscheinlichkeitsräume",
+            name: "In diesem Modul lernen Sie die Voraussetzungen für dessen Einsatz sowie verschiedene wichtige Algorithmen des maschinellen Lernens kennen.",
+            items: [],
+          },
+          {
+            name: "Technische Umsetzung",
             items: [
-              "Kolmogorov-Axiome",
-              "Diskrete Modelle",
-              "Verteilungsfunktionen",
+              "Python-Code zur Datenvorverarbeitung schreiben",
+              "Zentrale ML-Algorithmen implementieren (überwacht, unüberwacht, Ensemble)",
+              "End-to-End-ML-Pipelines erstellen",
             ],
           },
           {
-            name: "Bedingte Wahrscheinlichkeiten",
+            name: "Problemlösungsstrategie",
             items: [
-              "Bayes'sche Regel",
-              "Nachrichtenquellen",
-              "Bedingte Verteilungen",
+              "Geschäftliche Probleme als ML-Probleme formulieren",
+              "Geeignete Algorithmen auswählen",
+              "Entscheidungen datengestützt begründen",
             ],
           },
           {
-            name: "Zufallsvariablen",
+            name: "Berufspraxis",
             items: [
-              "Erwartungswert & Varianz",
-              "Gesetz der grossen Zahlen",
-              "Zentraler Grenzwertsatz",
+              "Modellleistung mit branchenüblichen Metriken validieren",
+              "Fallstricke wie Überanpassung und Datenlecks vermeiden",
+              "Ergebnisse technisch und nicht-technisch präsentieren",
             ],
           },
           {
-            name: "Statistik",
-            items: ["Parameterschätzung", "Hypothesentests"],
+            name: "Anwendung in der Praxis",
+            items: [
+              "Einsatz in Bereichen wie Gesundheitsprognosen, Finanzmodellierung oder Computer Vision",
+              "Portfolio-Projekte zur Demonstration der Fähigkeiten für zukünftige Arbeitgeber",
+            ],
           },
         ],
       },
@@ -1712,189 +1643,6 @@ const gymiData = [
         ],
       },
       {
-        name: "Mechanik",
-        topics: [
-          {
-            name: "Kinematik (Bewegungslehre)",
-            items: [],
-            subtopics: [
-              {
-                name: "Bewegungsgrössen",
-                items: [
-                  "Ort & Weg",
-                  "Geschwindigkeit (Vektor/Skalar)",
-                  "Beschleunigung",
-                  "Bewegungsdiagramme (t-x, t-v)",
-                ],
-              },
-              {
-                name: "Geradlinige Bewegung",
-                items: [
-                  "Gleichförmige Bewegung",
-                  "Gleichmässig beschleunigte Bewegung",
-                  "Freier Fall",
-                ],
-              },
-              {
-                name: "Kreisbewegung",
-                items: [
-                  "Frequenz & Periode",
-                  "Winkelgeschwindigkeit",
-                  "Bahngeschwindigkeit",
-                  "Zentripetalbeschleunigung",
-                ],
-              },
-            ],
-          },
-          {
-            name: "Dynamik (Kräfte)",
-            items: [],
-            subtopics: [
-              {
-                name: "Masse & Materie",
-                items: ["Trägheit", "Schwere", "Dichte"],
-              },
-              {
-                name: "Kraftbegriff",
-                items: [
-                  "Vektordarstellung",
-                  "Newtons Axiome (1., 2., 3.)",
-                  "Kräfteparallelogramm",
-                ],
-              },
-              {
-                name: "Kraftarten",
-                items: [
-                  "Gewichtskraft",
-                  "Federkraft (Hookesches Gesetz)",
-                  "Reibungskraft (Haft/Gleit)",
-                  "Normalkraft",
-                ],
-              },
-            ],
-          },
-          {
-            name: "Arbeit & Energie",
-            items: [],
-            subtopics: [
-              {
-                name: "Arbeit",
-                items: [
-                  "Definition",
-                  "Hubarbeit",
-                  "Beschleunigungsarbeit",
-                  "Reibungsarbeit",
-                ],
-              },
-              {
-                name: "Energieformen",
-                items: [
-                  "Kinetische Energie",
-                  "Potentielle Energie (Lage)",
-                  "Spannenergie (Feder)",
-                ],
-              },
-              {
-                name: "Erhaltungssätze",
-                items: ["Energieerhaltungssatz", "Impuls & Impulserhaltung"],
-              },
-              { name: "Leistung", items: ["Definition", "Wirkungsgrad"] },
-            ],
-          },
-          {
-            name: "Hydrostatik",
-            items: [],
-            subtopics: [
-              {
-                name: "Druck",
-                items: ["Definition", "Schweredruck", "Pascalsches Prinzip"],
-              },
-              {
-                name: "Auftrieb",
-                items: ["Archimedisches Prinzip", "Schwimmen & Sinken"],
-              },
-            ],
-          },
-          {
-            name: "Gravitation",
-            items: [],
-            subtopics: [
-              {
-                name: "Gravitationsgesetz",
-                items: ["Newtonsche Anziehung", "Satellitenbahnen"],
-              },
-              {
-                name: "Keplersche Gesetze",
-                items: [
-                  "Ellipsenbahnen",
-                  "Flächensatz",
-                  "Umlaufzeiten (3. Gesetz)",
-                ],
-              },
-            ],
-          },
-        ],
-      },
-      {
-        name: "Thermische Phänomene",
-        topics: [
-          {
-            name: "Temperatur & Wärme",
-            items: [],
-            subtopics: [
-              {
-                name: "Temperaturskalen",
-                items: ["Celsius", "Kelvin", "Absoluter Nullpunkt"],
-              },
-              {
-                name: "Grundbegriffe",
-                items: ["Temperatur vs. Wärme", "Thermisches Gleichgewicht"],
-              },
-            ],
-          },
-          {
-            name: "Thermodynamik",
-            items: [],
-            subtopics: [
-              {
-                name: "Hauptsätze",
-                items: [
-                  "Erster Hauptsatz (Energieerhaltung)",
-                  "Zweiter Hauptsatz (Entropie/Richtung)",
-                ],
-              },
-              {
-                name: "Wärmeübertragung",
-                items: [
-                  "Wärmeleitung",
-                  "Konvektion (Strömung)",
-                  "Wärmestrahlung",
-                ],
-              },
-            ],
-          },
-          {
-            name: "Materie & Zustände",
-            items: [],
-            subtopics: [
-              {
-                name: "Ausdehnung",
-                items: ["Festkörper", "Flüssigkeiten", "Gase"],
-              },
-              {
-                name: "Aggregatszustände",
-                items: [
-                  "Schmelzen & Erstarren",
-                  "Verdampfen & Kondensieren",
-                  "Spezifische Wärmekapazität",
-                  "Latente Wärme",
-                ],
-              },
-            ],
-          },
-        ],
-      },
-      {
         name: "Elektrizitätslehre",
         topics: [
           {
@@ -1954,82 +1702,6 @@ const gymiData = [
                 name: "Kraftwirkung",
                 items: ["Lorentzkraft (auf Leiter)", "Induktion (qualitativ)"],
               },
-            ],
-          },
-        ],
-      },
-      {
-        name: "Optik & Wellen",
-        topics: [
-          {
-            name: "Wellenlehre",
-            items: [],
-            subtopics: [
-              {
-                name: "Kenngrössen",
-                items: [
-                  "Wellenlänge",
-                  "Amplitude",
-                  "Frequenz",
-                  "Ausbreitungsgeschwindigkeit",
-                ],
-              },
-              {
-                name: "Wellentypen",
-                items: ["Transversalwellen", "Longitudinalwellen"],
-              },
-            ],
-          },
-          {
-            name: "Wellenphänomene",
-            items: [],
-            subtopics: [
-              {
-                name: "Ausbreitung",
-                items: ["Reflexionsgesetz", "Brechungsgesetz (Snellius)"],
-              },
-              {
-                name: "Superposition",
-                items: ["Interferenz", "Konstruktiv & Destruktiv"],
-              },
-            ],
-          },
-          {
-            name: "Optik (Grundlagen)",
-            items: ["Lichtgeschwindigkeit", "Lichtstrahlmodell", "Spektrum"],
-          },
-        ],
-      },
-      {
-        name: "Atomphysik",
-        topics: [
-          {
-            name: "Atomaufbau",
-            items: ["Kern-Hülle-Modell", "Kernkräfte"],
-            subtopics: [
-              {
-                name: "Elementarteilchen",
-                items: ["Protonen", "Neutronen", "Elektronen"],
-              },
-            ],
-          },
-          {
-            name: "Radioaktivität",
-            items: [],
-            subtopics: [
-              {
-                name: "Strahlungsarten",
-                items: ["Alpha-Zerfall", "Beta-Zerfall", "Gamma-Strahlung"],
-              },
-              {
-                name: "Gesetzmässigkeiten",
-                items: [
-                  "Halbwertszeit",
-                  "Zerfallsreihe",
-                  "Periodensystem (Ordnungszahl/Massenzahl)",
-                ],
-              },
-              { name: "Strahlenschutz", items: ["Abschirmung"] },
             ],
           },
         ],
